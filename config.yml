@@ -1,0 +1,289 @@
+---
+configure_dotfiles: false
+configure_terminal: false
+configure_osx: false
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+  - orf/brew
+  - nvie/tap
+  - aws/tap
+  - homebrew/cask-fonts
+  - microsoft/git
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - autoconf
+  - bash-completion
+  - doxygen
+  - gettext
+  - gifsicle
+  - git
+  - github/gh/gh
+  - go
+  - gpg
+  - httpie
+  - iperf
+  - libevent
+  - sqlite
+  - mcrypt
+  - nmap
+  - node
+  - nvm
+  - php
+  - ssh-copy-id
+  - cowsay
+  - readline
+  - openssl
+  - pv
+  - wget
+  - wrk
+
+  # # Mime
+  # # CLI
+  - cmake
+  - terminal-notifier
+  - macvim
+  - mono
+  - jq
+  - bit-git
+  - fd
+  - lazygit
+  - fzf
+  - peco
+  - fzy
+  - thefuck
+  - neovim
+  - ripgrep
+  - telnet
+  - tmux
+  - you-get
+  - gh
+  - bat
+  - bats
+  - exa
+  - htop
+  - yarn
+  - yq
+  - gradle
+  - infer
+  - mpv
+  - asciinema
+  - croc
+  - ffmpeg
+  - fontconfig
+  - cocoapods
+  - glow
+  - imageoptim-cli
+  - parallel
+  - sqlite
+  - wrk
+  - vault
+  - tesseract
+  - tesseract-lang
+  - perl
+  - git
+  - git-gui
+  - reattach-to-user-namespace
+  - fpp
+  - luarocks
+  - wget
+  - unzip
+  - tmuxinator
+  - autojump
+  - unzip
+  - transmission-cli
+  - ccat
+  - tldr
+  - emojify
+  - git-secret
+  - bash-completion
+  - gradle-completion
+  - direnv
+  - git-flow-avh
+  - the_silver_searcher
+  - starship
+  - neofetch
+  - tty-clock
+  - koekeishiya/formulae/skhd
+  - koekeishiya/formulae/yabai
+  - micro
+  - hey
+  - zsh
+  - watch
+  - tig
+  - diff-so-fancy
+  - mas
+  - austinjones/taps/tab
+  - termshark
+  - uni
+  - pgloader
+  - pick
+  - "n"
+  - wtfutil
+  - watchman
+  - imagemagick
+  - xh
+  - coreutils
+  - curl
+  - asdf
+  - gping
+
+  # DevOps
+  - aws-iam-authenticator
+  - kubectl
+  - docker-credential-helper
+  - eksctl
+  - krew
+  - kompose
+  - ansible
+  - ansible-lint
+  - dive
+  - kustomize
+  - minikube
+  - kubectx
+  - docker-machine
+  - docker-compose
+  - helm
+  - kubectl
+  - terragrunt
+  - k9s
+  - buildkit
+  - kops
+  - stern
+  - skaffold
+  - earthly
+  - buildpacks/tap/pack
+  - tektoncd-cli
+  - teleconsole
+  - velero
+  - packer
+  - hey
+  - grpcurl
+  - httpie
+  - ghz
+  - kube-linter
+  - kubespy
+  - tfenv
+  - lazydocker
+  - docui
+  - kube-ps1
+  - jsonnet
+  - argocd
+  - skopeo
+  - lnav
+  - mitmproxy
+  - helmfile
+  - octant
+  - jmeter
+  # - vagrant
+  # - fly
+  # - git-credential-manager-core
+  # - fuse
+  # - font-fira-code
+  # - font-cascadia-code-pl
+  - nvie/tap/git-toolbelt
+  - aws-sam-cli
+
+homebrew_cask_apps:
+  - chromedriver
+  - docker
+  - dropbox
+  - firefox
+  - google-chrome
+  - handbrake
+  - licecap
+  - sequel-pro
+  - slack
+  - sublime-text
+  - transmit
+  # - vagrant
+
+  # Mime
+  - another-redis-desktop-manager
+  - vagrant-manager
+  - bloomrpc
+  - virtualbox
+  - visual-studio-code
+  - emacs
+  - kitty
+  - edex-ui
+  - github
+  - authy
+  - microsoft-edge
+  - vivaldi
+  - brave-browser
+  - lastpass
+  - discord
+  - visual-paradigm-ce
+  - dbeaver-community
+  - pgadmin4
+  - textmate
+  - keeweb
+  - spectacle
+  - free-download-manager
+  # - wireshark
+  - gpg-suite
+  - drawio
+  - skitch
+  - postman
+  - openkey
+  - monitorcontrol
+  - transmission
+  - hyper
+  - graphql-playground
+  - macfuse
+  - sourcetrail
+  - imageoptim
+  - tor-browser
+  - kube-forwarder
+
+pip_packages:
+  - name: jupyterlab
+    state: latest
+  - name: pyyaml
+    state: latest
+  - name: rich
+    state: latest
+  - name: buku
+    state: latest
+  - name: click
+    state: latest
+  - name: yamllint
+    state: latest
+  - name: you-get
+    state: latest
+  - name: aws-shell
+    state: latest
+  - name: git-trend
+    state: latest
+  - name: kb-manager
+    state: latest
+  - name: requests
+    state: latest
+  - name: virtualenv
+    state: latest
+  # - name: jupyter-tabnine
+  #   state: latest
+  - name: sqlfluff
+    state: latest
+
+npm_packages:
+  - name: gitmoji-cli
+    state: latest
+  - name: unibeautify-cli
+    state: latest
+  - name: zx
+    state: latest
+
+mas_installed_apps:
+  - { id: 1480068668, name: "Messenger" }
+  - { id: 1176895641, name: "Spark" }
+  - { id: 747648890, name: "Telegram" }
+  - { id: 1147396723, name: "WhatsApp" }
+  - { id: 823766827, name: "Outline" }
+  - { id: 692867256, name: "Simplenote" }
+  - { id: 526298438, name: "Lightshot Screenshot" }
+  - { id: 1445910651, name: "Dynamo" }
+  - { id: 1544743900, name: "Hush" }
