@@ -129,6 +129,8 @@ homebrew_installed_packages:
   - curl
   - asdf
   - gping
+  - chezmoi
+  - mackup
 
   # DevOps
   - aws-iam-authenticator
@@ -177,6 +179,7 @@ homebrew_installed_packages:
   - helmfile
   - octant
   - jmeter
+  - bitwarden-cli
   # - vagrant
   # - fly
   # - git-credential-manager-core
@@ -238,6 +241,7 @@ homebrew_cask_apps:
   - imageoptim
   - tor-browser
   - kube-forwarder
+  - meld
 
 pip_packages:
   - name: jupyterlab
