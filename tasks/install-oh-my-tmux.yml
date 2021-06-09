@@ -1,0 +1,7 @@
+- name: Oh My Tmux
+  ansible.builtin.git:
+    repo: https://github.com/gpakosz/.tmux.git
+    dest: $HOME/.tmux
+    single_branch: yes
+    version: master
+    force: true

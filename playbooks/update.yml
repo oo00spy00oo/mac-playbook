@@ -1,0 +1,59 @@
+- hosts: localhost
+
+  tasks:
+
+    - import_tasks: ../tasks/install-oh-my-tmux.yml
+
+    - name: zinit
+      become: yes
+      user:
+        name: $(whoami)
+        shell: |
+          $(which zsh)
+          zinit self-update
+      tags: ['zinit']
+
+    - name: sdkman
+      become: yes
+      user:
+        name: $(whoami)
+        shell: |
+          $(which zsh)
+          sdk update
+          sdk upgrade
+          sdk selfupdate force
+      tags: ['sdkman']
+
+    - name: prezto
+      become: yes
+      user:
+        name: $(whoami)
+        shell: |
+          $(which zsh)
+          zprezto-update
+      tags: ['prezto']
+
+    - name: nvm
+      become: yes
+      user:
+        name: $(whoami)
+        shell: |
+          $(which zsh)
+          nvm upgrade
+      tags: ['nvm']
+
+    - name: krew
+      shell: |
+        kubectl krew upgrade
+
+    - name: yarn
+      shell: |
+        yarn global upgrade-interactive
+
+    # - name: flutter
+    #   shell: |
+    #     if [ $commands[flutter] ]; then
+    #         cd $HOME/Development/flutter && git pull
+
+    #         flutter upgrade --force
+    #     fi

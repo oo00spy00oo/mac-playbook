@@ -1,0 +1,13 @@
+- import_tasks: install-oh-my-tmux.yml
+
+- name: symlink tmux
+  ansible.builtin.file:
+    src: "$HOME/.tmux/.tmux.conf"
+    dest: "$HOME/.tmux.conf"
+    state: link
+
+- name: symlink tmux local
+  ansible.builtin.file:
+    src: "$HOME/.tmux/.tmux.conf.local"
+    dest: "$HOME/.tmux.conf.local"
+    state: link

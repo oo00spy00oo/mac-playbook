@@ -180,12 +180,6 @@ homebrew_installed_packages:
   - octant
   - jmeter
   - bitwarden-cli
-  # - vagrant
-  # - fly
-  # - git-credential-manager-core
-  # - fuse
-  # - font-fira-code
-  # - font-cascadia-code-pl
   - nvie/tap/git-toolbelt
   - aws-sam-cli
 
@@ -201,7 +195,6 @@ homebrew_cask_apps:
   - slack
   - sublime-text
   - transmit
-  # - vagrant
 
   # Mime
   - another-redis-desktop-manager
@@ -268,8 +261,6 @@ pip_packages:
     state: latest
   - name: virtualenv
     state: latest
-  # - name: jupyter-tabnine
-  #   state: latest
   - name: sqlfluff
     state: latest
 

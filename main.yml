@@ -1,0 +1,9 @@
+- hosts: localhost
+
+  tasks:
+
+    - name: config
+      ansible.builtin.file:
+        src: "$PWD/config.yml"
+        dest: "$PWD/mac-dev-playbook/config.yml"
+        state: link
