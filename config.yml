@@ -235,6 +235,7 @@ homebrew_cask_apps:
   - tor-browser
   - kube-forwarder
   - meld
+  - double-commander
 
 pip_packages:
   - name: jupyterlab
