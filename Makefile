@@ -3,9 +3,6 @@ all: symllink
 install:
 	ansible-playbook playbooks/install.yml --ask-become
 
-symllink:
-	ln -s ~/Data/Personal/mac-playbook/config.yml ~/Data/Personal/mac-playbook/mac-dev-playbook/config.yml
-
 .PHONY: symlink
 
 symlink: oh-my-tmux-symlink zprezto-symlink yabai-symlink skhd-symlink starship

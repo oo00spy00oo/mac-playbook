@@ -50,10 +50,13 @@
         name: rbenv
 
     # SDK Man
-    - name: SDK Man Package
-      shell: |
-        $(which zsh)
-        sdk install {{ item }}
+    - name: SDK Man Packages
+      become: yes
+      user:
+        name: $(whoami)
+        shell: |
+          $(which zsh)
+          sdk install {{ item }}
       with_items:
         - gradle
         - gradleprofiler
