@@ -236,6 +236,7 @@ homebrew_cask_apps:
   - kube-forwarder
   - meld
   - double-commander
+  - http-toolkit
 
 pip_packages:
   - name: jupyterlab

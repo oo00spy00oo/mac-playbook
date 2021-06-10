@@ -1,5 +1,3 @@
-all: symllink
-
 install:
 	ansible-playbook playbooks/install.yml --ask-become
 
