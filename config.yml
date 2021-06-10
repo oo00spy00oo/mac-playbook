@@ -131,6 +131,7 @@ homebrew_installed_packages:
   - gping
   - chezmoi
   - mackup
+  - gource
 
   # DevOps
   - aws-iam-authenticator
