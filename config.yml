@@ -238,6 +238,7 @@ homebrew_cask_apps:
   - meld
   - double-commander
   - http-toolkit
+  - lens
 
 pip_packages:
   - name: jupyterlab
