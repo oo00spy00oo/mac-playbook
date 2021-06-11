@@ -17,6 +17,10 @@
         url: https://raw.githubusercontent.com/ahmetb/kubectl-alias/master/.kubectl_aliases
         dest: $HOME/.kubectl_aliases
 
+    - name: install slides
+      shell: |
+        go get github.com/maaslalani/slides
+
     - name: tmuxinator-completion
       get_url:
         url: https://raw.githubusercontent.com/tmuxinator/tmuxinator/master/completion/tmuxinator.zsh
