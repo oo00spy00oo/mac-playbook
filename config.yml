@@ -239,6 +239,7 @@ homebrew_cask_apps:
   - double-commander
   - http-toolkit
   - lens
+  - hammerspoon
 
 pip_packages:
   - name: jupyterlab
