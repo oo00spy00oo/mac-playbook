@@ -289,3 +289,8 @@ mas_installed_apps:
   - { id: 526298438, name: "Lightshot Screenshot" }
   - { id: 1445910651, name: "Dynamo" }
   - { id: 1544743900, name: "Hush" }
+  - { id: 409907375, name: "Remote Desktop" }
+  - { id: 1014850245, name: "Monit" }
+  - { id: 1356178125, name: "Outline" }
+  - { id: 692867256, name: "Simplenote" }
+  - { id: 1274495053, name: "Microsoft To Do" }
