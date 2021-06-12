@@ -276,6 +276,8 @@ npm_packages:
     state: latest
   - name: zx
     state: latest
+  - name: tiktok-scraper
+    state: latest
 
 mas_installed_apps:
   - { id: 1480068668, name: "Messenger" }
