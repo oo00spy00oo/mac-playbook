@@ -294,4 +294,6 @@ mas_installed_apps:
   - { id: 1014850245, name: "Monit" }
   - { id: 1356178125, name: "Outline" }
   - { id: 692867256, name: "Simplenote" }
+  - { id: 823766827, name: "OneDrive" }
+  - { id: 1553096775, name: "Dashword" }
   - { id: 1274495053, name: "Microsoft To Do" }
