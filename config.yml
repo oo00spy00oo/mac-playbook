@@ -240,6 +240,7 @@ homebrew_cask_apps:
   - http-toolkit
   - lens
   - hammerspoon
+  - gitkraken
 
 pip_packages:
   - name: jupyterlab
