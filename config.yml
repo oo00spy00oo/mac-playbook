@@ -269,6 +269,8 @@ pip_packages:
     state: latest
   - name: sqlfluff
     state: latest
+  - name: glances
+    state: latest
 
 npm_packages:
   - name: gitmoji-cli
