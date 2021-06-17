@@ -30,6 +30,3 @@ kube-aliases:
 update:
 	# Submodule update from remote
 	git submodule update --remote --merge
-
-	# zinit-update
-	zinit self-update
