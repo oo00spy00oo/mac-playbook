@@ -150,7 +150,7 @@ homebrew_installed_packages:
   - docker-compose
   - helm
   - kubectl
-  - terragrunt
+  # - terragrunt
   - k9s
   - buildkit
   - kops
@@ -241,6 +241,7 @@ homebrew_cask_apps:
   - lens
   - hammerspoon
   - gitkraken
+  - terminus
 
 pip_packages:
   - name: jupyterlab
