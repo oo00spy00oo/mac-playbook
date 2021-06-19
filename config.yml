@@ -11,6 +11,8 @@ homebrew_taps:
   - aws/tap
   - homebrew/cask-fonts
   - microsoft/git
+  - cantino/mcfly
+  - nclementtsang/bottom
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
@@ -132,6 +134,16 @@ homebrew_installed_packages:
   - chezmoi
   - mackup
   - gource
+  - duf
+  - ag
+  - choose-rust
+  - bottom
+  - hyperfine
+  - procs
+  - curlie
+  - git-delta
+  - dust
+  - broot
 
   # DevOps
   - aws-iam-authenticator
