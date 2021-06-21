@@ -13,6 +13,7 @@ homebrew_taps:
   - microsoft/git
   - cantino/mcfly
   - nclementtsang/bottom
+  - homebrew/command-not-found
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
@@ -145,6 +146,9 @@ homebrew_installed_packages:
   - dust
   - broot
   - the_silver_searcher
+  - autoenv
+  - zoxide
+  - cheat
 
   # DevOps
   - aws-iam-authenticator
@@ -286,6 +290,8 @@ pip_packages:
   - name: sqlfluff
     state: latest
   - name: glances
+    state: latest
+  - name: Pygments
     state: latest
 
 npm_packages:
