@@ -144,6 +144,7 @@ homebrew_installed_packages:
   - git-delta
   - dust
   - broot
+  - the_silver_searcher
 
   # DevOps
   - aws-iam-authenticator
