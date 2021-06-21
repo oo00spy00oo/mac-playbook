@@ -209,6 +209,7 @@ homebrew_cask_apps:
   - slack
   - sublime-text
   - transmit
+  - vagrant
 
   # Mime
   - another-redis-desktop-manager
@@ -255,6 +256,7 @@ homebrew_cask_apps:
   - hammerspoon
   - gitkraken
   - terminus
+  - shotcut
 
 pip_packages:
   - name: jupyterlab
