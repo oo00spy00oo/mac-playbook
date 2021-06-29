@@ -262,6 +262,7 @@ homebrew_cask_apps:
   - gitkraken
   - terminus
   - shotcut
+  - karabiner-elements
 
 pip_packages:
   - name: jupyterlab
