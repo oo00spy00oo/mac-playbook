@@ -261,6 +261,7 @@ homebrew_cask_apps:
   - gitkraken
   - terminus
   - shotcut
+  - raindropio
 
 pip_packages:
   - name: jupyterlab
