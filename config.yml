@@ -201,6 +201,7 @@ homebrew_installed_packages:
   - bitwarden-cli
   - nvie/tap/git-toolbelt
   - aws-sam-cli
+  - goenv
 
 homebrew_cask_apps:
   - chromedriver
