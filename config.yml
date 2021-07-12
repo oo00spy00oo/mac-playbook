@@ -265,6 +265,7 @@ homebrew_cask_apps:
   - shotcut
   - raindropio
   - karabiner-elements
+  - freeplane
 
 pip_packages:
   - name: jupyterlab
