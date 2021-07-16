@@ -269,6 +269,7 @@ homebrew_cask_apps:
   - squirrelsql
   - startuml
   - mjml
+  - diffmerge
 
 pip_packages:
   - name: jupyterlab
