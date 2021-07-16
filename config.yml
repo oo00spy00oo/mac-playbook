@@ -267,6 +267,8 @@ homebrew_cask_apps:
   - karabiner-elements
   - freeplane
   - squirrelsql
+  - startuml
+  - mjml
 
 pip_packages:
   - name: jupyterlab
