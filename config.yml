@@ -270,6 +270,7 @@ homebrew_cask_apps:
   - startuml
   - mjml
   - diffmerge
+  - switchhosts
 
 pip_packages:
   - name: jupyterlab
