@@ -272,6 +272,7 @@ homebrew_cask_apps:
   - diffmerge
   - switchhosts
   - cakebrew
+  - clipy
 
 pip_packages:
   - name: jupyterlab
