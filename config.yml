@@ -288,6 +288,7 @@ homebrew_cask_apps:
   - switchhosts
   - cakebrew
   - clipy
+  - background-music-pre
 
 pip_packages:
   - name: jupyterlab
