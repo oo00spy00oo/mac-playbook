@@ -150,7 +150,16 @@ homebrew_installed_packages:
   - zoxide
   - cheat
   - certstrap
-
+  # Quicklook plugins
+  - qlcolorcode
+  - qlstephen
+  - qlmarkdown
+  - quicklook-json
+  - qlimagesize
+  - suspicious-package
+  - apparency
+  - quicklookase
+  - qlvideo
   # DevOps
   - aws-iam-authenticator
   - kubectl
