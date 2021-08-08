@@ -217,6 +217,12 @@ homebrew_installed_packages:
   - nvie/tap/git-toolbelt
   - aws-sam-cli
   - goenv
+  - xxh
+  - ccat
+  - dark-mode
+  - fselect
+  - m-cli
+  - textql
 
 homebrew_cask_apps:
   - chromedriver
@@ -289,6 +295,7 @@ homebrew_cask_apps:
   - cakebrew
   - clipy
   - background-music-pre
+  - beekeeper-studio
 
 pip_packages:
   - name: jupyterlab
@@ -320,6 +327,8 @@ pip_packages:
   - name: glances
     state: latest
   - name: Pygments
+    state: latest
+  - name: rebound
     state: latest
 
 npm_packages:
