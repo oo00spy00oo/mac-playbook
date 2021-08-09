@@ -296,6 +296,7 @@ homebrew_cask_apps:
   - clipy
   - background-music-pre
   - beekeeper-studio
+  - syncthing
 
 pip_packages:
   - name: jupyterlab
