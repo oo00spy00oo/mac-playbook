@@ -361,3 +361,4 @@ mas_installed_apps:
   - { id: 1553096775, name: "Dashword" }
   - { id: 1274495053, name: "Microsoft To Do" }
   - { id: 1381446741, name: "Winds - RSS & Podcasts" }
+  - { id: 1514074565, name: "MQTTX" }
