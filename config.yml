@@ -223,6 +223,7 @@ homebrew_installed_packages:
   - fselect
   - m-cli
   - textql
+  - aria2
 
 homebrew_cask_apps:
   - chromedriver
