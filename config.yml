@@ -298,6 +298,7 @@ homebrew_cask_apps:
   - background-music-pre
   - beekeeper-studio
   - syncthing
+  - fork
 
 pip_packages:
   - name: jupyterlab
