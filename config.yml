@@ -299,6 +299,7 @@ homebrew_cask_apps:
   - beekeeper-studio
   - syncthing
   - fork
+  - db-browser-for-sqlite
 
 pip_packages:
   - name: jupyterlab
