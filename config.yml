@@ -263,6 +263,7 @@ homebrew_cask_apps:
   - terminus
   - shotcut
   - karabiner-elements
+  - mark-text
 
 pip_packages:
   - name: jupyterlab
