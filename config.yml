@@ -150,7 +150,22 @@ homebrew_installed_packages:
   - zoxide
   - cheat
   - certstrap
-
+  - betterzip
+  # Quicklook plugins
+  - qlcolorcode
+  - qlstephen
+  - qlmarkdown
+  - quicklook-json
+  - qlimagesize
+  - suspicious-package
+  - apparency
+  - quicklookase
+  - qlvideo
+  - webpquicklook
+  - quicklookapk
+  - provisionql
+  - quicklookase
+  - apparency
   # DevOps
   - aws-iam-authenticator
   - kubectl
@@ -201,6 +216,14 @@ homebrew_installed_packages:
   - bitwarden-cli
   - nvie/tap/git-toolbelt
   - aws-sam-cli
+  - goenv
+  - xxh
+  - ccat
+  - dark-mode
+  - fselect
+  - m-cli
+  - textql
+  - aria2
 
 homebrew_cask_apps:
   - chromedriver
@@ -262,8 +285,22 @@ homebrew_cask_apps:
   - gitkraken
   - terminus
   - shotcut
+  - raindropio
   - karabiner-elements
   - mark-text
+  - freeplane
+  - squirrelsql
+  - startuml
+  - mjml
+  - diffmerge
+  - switchhosts
+  - cakebrew
+  - clipy
+  - background-music-pre
+  - beekeeper-studio
+  - syncthing
+  - fork
+  - db-browser-for-sqlite
 
 pip_packages:
   - name: jupyterlab
@@ -296,6 +333,8 @@ pip_packages:
     state: latest
   - name: Pygments
     state: latest
+  - name: rebound
+    state: latest
 
 npm_packages:
   - name: gitmoji-cli
@@ -324,3 +363,5 @@ mas_installed_apps:
   - { id: 823766827, name: "OneDrive" }
   - { id: 1553096775, name: "Dashword" }
   - { id: 1274495053, name: "Microsoft To Do" }
+  - { id: 1381446741, name: "Winds - RSS & Podcasts" }
+  - { id: 1514074565, name: "MQTTX" }
