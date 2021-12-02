@@ -225,6 +225,7 @@ homebrew_installed_packages:
   - textql
   - aria2
 
+homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - chromedriver
   - docker
@@ -301,6 +302,7 @@ homebrew_cask_apps:
   - syncthing
   - fork
   - db-browser-for-sqlite
+  - notion
 
 pip_packages:
   - name: jupyterlab
