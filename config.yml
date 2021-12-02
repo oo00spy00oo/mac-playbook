@@ -291,13 +291,13 @@ homebrew_cask_apps:
   - mark-text
   - freeplane
   - squirrelsql
-  - startuml
+  - staruml
   - mjml
   - diffmerge
   - switchhosts
   - cakebrew
   - clipy
-  - background-music-pre
+  - background-music
   - beekeeper-studio
   - syncthing
   - fork
