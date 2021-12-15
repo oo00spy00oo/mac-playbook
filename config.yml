@@ -272,7 +272,6 @@ homebrew_cask_apps:
   - monitorcontrol
   - transmission
   - hyper
-  - graphql-playground
   - macfuse
   - sourcetrail
   - imageoptim
@@ -303,6 +302,7 @@ homebrew_cask_apps:
   - fork
   - db-browser-for-sqlite
   - notion
+  - altair-graphql-client
 
 pip_packages:
   - name: jupyterlab
