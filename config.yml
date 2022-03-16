@@ -151,6 +151,7 @@ homebrew_installed_packages:
   - cheat
   - certstrap
   - betterzip
+  - graphviz
   # Quicklook plugins
   - qlcolorcode
   - qlstephen
