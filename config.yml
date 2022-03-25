@@ -304,6 +304,7 @@ homebrew_cask_apps:
   - db-browser-for-sqlite
   - notion
   - altair-graphql-client
+  - leapp
 
 pip_packages:
   - name: jupyterlab
