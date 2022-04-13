@@ -225,6 +225,7 @@ homebrew_installed_packages:
   - m-cli
   - textql
   - aria2
+  - helmwave/tap/helmwave
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
