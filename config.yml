@@ -306,6 +306,7 @@ homebrew_cask_apps:
   - notion
   - altair-graphql-client
   - leapp
+  - fig
 
 pip_packages:
   - name: jupyterlab
