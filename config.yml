@@ -307,6 +307,7 @@ homebrew_cask_apps:
   - altair-graphql-client
   - leapp
   - fig
+  - redisinsight
 
 pip_packages:
   - name: jupyterlab
