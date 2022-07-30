@@ -227,6 +227,7 @@ homebrew_installed_packages:
   - textql
   - aria2
   - helmwave/tap/helmwave
+  - colima
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
