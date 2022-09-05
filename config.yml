@@ -167,6 +167,7 @@ homebrew_installed_packages:
   - provisionql
   - quicklookase
   - apparency
+  - atuin
   # DevOps
   - aws-iam-authenticator
   - kubectl
