@@ -184,6 +184,7 @@ homebrew_installed_packages:
   - docker-compose
   - helm
   - kubectl
+  - awscli
   # - terragrunt
   - k9s
   - buildkit
