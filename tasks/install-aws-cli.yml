@@ -1,16 +1,16 @@
 - name: Download Pkg
-  become: yes
+  become: true
   get_url:
     url: https://awscli.amazonaws.com/AWSCLIV2.pkg
     dest: /tmp/AWSCLIV2.pkg
 
 - name: Install AWS CLI
-  become: yes
+  become: true
   shell: |
     installer -pkg /tmp/AWSCLIV2.pkg -target /
 
 - name: Recursively remove directory
-  become: yes
+  become: true
   ansible.builtin.file:
     path: /tmp/AWSCLIV2.pkg
     state: absent

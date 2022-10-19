@@ -250,6 +250,8 @@ homebrew_cask_apps:
   - slack
   - transmit
   # Mime
+  - tigervnc-viewer
+  - wombat
   - vagrant
   - another-redis-desktop-manager
   - vagrant-manager
@@ -267,8 +269,7 @@ homebrew_cask_apps:
   - lastpass
   - discord
   - visual-paradigm-ce
-  - dbeaver-community
-  - pgadmin4
+  - dbeaver-communityừa d - 4
   - textmate
   - keeweb
   - spectacle
