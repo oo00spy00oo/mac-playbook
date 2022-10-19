@@ -3,6 +3,13 @@ configure_dotfiles: false
 configure_terminal: false
 configure_osx: false
 
+# Set to 'true' to configure the Dock via dockutil.
+configure_dock: true
+dockitems_remove:
+- TV
+- Podcasts
+- 'App Store'
+
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
@@ -34,7 +41,6 @@ homebrew_installed_packages:
   - nmap
   - node
   - nvm
-  - php
   - ssh-copy-id
   - cowsay
   - readline
@@ -42,6 +48,7 @@ homebrew_installed_packages:
   - pv
   - wget
   - wrk
+  - zsh-history-substring-search
 
   # # Mime
   # # CLI
@@ -239,13 +246,12 @@ homebrew_cask_apps:
   - google-chrome
   - handbrake
   - licecap
-  - sequel-pro
+  - sequel-ace
   - slack
   - sublime-text
   - transmit
-  - vagrant
-
   # Mime
+  - vagrant
   - another-redis-desktop-manager
   - vagrant-manager
   - bloomrpc
@@ -287,7 +293,6 @@ homebrew_cask_apps:
   - http-toolkit
   - lens
   - hammerspoon
-  - gitkraken
   - tabby
   - shotcut
   - raindropio
@@ -373,5 +378,4 @@ mas_installed_apps:
   - { id: 823766827, name: "OneDrive" }
   - { id: 1553096775, name: "Dashword" }
   - { id: 1274495053, name: "Microsoft To Do" }
-  - { id: 1381446741, name: "Winds - RSS & Podcasts" }
   - { id: 1514074565, name: "MQTTX" }
