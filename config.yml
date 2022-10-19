@@ -248,7 +248,6 @@ homebrew_cask_apps:
   - licecap
   - sequel-ace
   - slack
-  - sublime-text
   - transmit
   # Mime
   - vagrant
