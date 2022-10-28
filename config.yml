@@ -6,9 +6,9 @@ configure_osx: false
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: true
 dockitems_remove:
-- TV
-- Podcasts
-- 'App Store'
+  - TV
+  - Podcasts
+  - "App Store"
 
 homebrew_taps:
   - homebrew/core
@@ -23,7 +23,7 @@ homebrew_taps:
   - homebrew/command-not-found
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
+  - ansible
   - autoconf
   - bash-completion
   - doxygen
@@ -49,9 +49,7 @@ homebrew_installed_packages:
   - wget
   - wrk
   - zsh-history-substring-search
-
-  # # Mime
-  # # CLI
+  ## CLI
   - cmake
   - terminal-notifier
   - macvim
@@ -71,13 +69,11 @@ homebrew_installed_packages:
   - you-get
   - gh
   - bat
-  - bats
   - exa
   - htop
   - yarn
   - yq
   - gradle
-  - infer
   - mpv
   - asciinema
   - croc
@@ -85,7 +81,6 @@ homebrew_installed_packages:
   - fontconfig
   - cocoapods
   - glow
-  - imageoptim-cli
   - parallel
   - sqlite
   - wrk
@@ -116,8 +111,6 @@ homebrew_installed_packages:
   - starship
   - neofetch
   - tty-clock
-  - koekeishiya/formulae/skhd
-  - koekeishiya/formulae/yabai
   - micro
   - hey
   - zsh
@@ -125,7 +118,6 @@ homebrew_installed_packages:
   - tig
   - diff-so-fancy
   - mas
-  - austinjones/taps/tab
   - termshark
   - uni
   - pgloader
@@ -157,23 +149,6 @@ homebrew_installed_packages:
   - zoxide
   - cheat
   - certstrap
-  - betterzip
-  - graphviz
-  # Quicklook plugins
-  - qlcolorcode
-  - qlstephen
-  - qlmarkdown
-  - quicklook-json
-  - qlimagesize
-  - suspicious-package
-  - apparency
-  - quicklookase
-  - qlvideo
-  - webpquicklook
-  - quicklookapk
-  - provisionql
-  - quicklookase
-  - apparency
   - atuin
   # DevOps
   - aws-iam-authenticator
@@ -189,20 +164,16 @@ homebrew_installed_packages:
   - minikube
   - kubectx
   - docker-machine
-  - docker-compose
   - helm
   - kubectl
   - awscli
-  # - terragrunt
   - k9s
   - buildkit
   - kops
   - stern
   - skaffold
   - earthly
-  - buildpacks/tap/pack
   - tektoncd-cli
-  - teleconsole
   - velero
   - packer
   - hey
@@ -224,8 +195,6 @@ homebrew_installed_packages:
   - octant
   - jmeter
   - bitwarden-cli
-  - nvie/tap/git-toolbelt
-  - aws-sam-cli
   - goenv
   - xxh
   - ccat
@@ -234,8 +203,34 @@ homebrew_installed_packages:
   - m-cli
   - textql
   - aria2
-  - helmwave/tap/helmwave
   - colima
+  # Quicklook plugins
+  # - qlcolorcode
+  # - qlstephen
+  # - qlmarkdown
+  # - quicklook-json
+  # - qlimagesize
+  # - suspicious-package
+  # - apparency
+  # - quicklookase
+  # - qlvideo
+  # - webpquicklook
+  # - quicklookapk
+  # - provisionql
+  # - quicklookase
+  # Outdated or need to be updated
+  # - infer
+  # - koekeishiya/formulae/skhd
+  # - koekeishiya/formulae/yabai
+  # - imageoptim-cli
+  # - betterzip
+  # - apparency
+  # - terragrunt
+  # - buildpacks/tap/pack
+  # - teleconsole
+  # - helmwave/tap/helmwave
+  # - nvie/tap/git-toolbelt
+  # - aws-sam-cli
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -256,7 +251,6 @@ homebrew_cask_apps:
   - another-redis-desktop-manager
   - vagrant-manager
   - bloomrpc
-  - virtualbox
   - visual-studio-code
   - emacs
   - kitty
@@ -269,12 +263,11 @@ homebrew_cask_apps:
   - lastpass
   - discord
   - visual-paradigm-ce
-  - dbeaver-communityừa d - 4
+  - dbeaver-community
   - textmate
   - keeweb
   - spectacle
   - free-download-manager
-  # - wireshark
   - gpg-suite
   - drawio
   - skitch
@@ -299,7 +292,6 @@ homebrew_cask_apps:
   - karabiner-elements
   - mark-text
   - freeplane
-  - squirrelsql
   - staruml
   - mjml
   - diffmerge
@@ -316,6 +308,14 @@ homebrew_cask_apps:
   - leapp
   - fig
   - redisinsight
+  - eul
+  - balenaetcher
+  - adguard
+  # Disable
+  # - wireshark
+  # - squirrelsql
+  # Not working for Mac M1/M2
+  # - virtualbox
 
 pip_packages:
   - name: jupyterlab
@@ -372,7 +372,7 @@ mas_installed_apps:
   - { id: 1445910651, name: "Dynamo" }
   - { id: 1544743900, name: "Hush" }
   - { id: 409907375, name: "Remote Desktop" }
-  - { id: 1014850245, name: "Monit" }
+  # - { id: 1014850245, name: "Monit" }
   - { id: 1356178125, name: "Outline" }
   - { id: 692867256, name: "Simplenote" }
   - { id: 823766827, name: "OneDrive" }
