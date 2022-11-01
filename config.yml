@@ -311,6 +311,7 @@ homebrew_cask_apps:
   - eul
   - balenaetcher
   - adguard
+  - remote-desktop-manager
   # Disable
   # - wireshark
   # - squirrelsql
