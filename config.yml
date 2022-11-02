@@ -150,6 +150,7 @@ homebrew_installed_packages:
   - cheat
   - certstrap
   - atuin
+  - pnpm
   # DevOps
   - aws-iam-authenticator
   - kubectl
