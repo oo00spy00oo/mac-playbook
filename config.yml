@@ -21,6 +21,7 @@ homebrew_taps:
   - cantino/mcfly
   - clementtsang/bottom
   - homebrew/command-not-found
+  - microsoft/git
 
 homebrew_installed_packages:
   - ansible
@@ -313,6 +314,7 @@ homebrew_cask_apps:
   - balenaetcher
   - adguard
   - remote-desktop-manager
+  - git-credential-manager-core
   # Disable
   # - wireshark
   # - squirrelsql
